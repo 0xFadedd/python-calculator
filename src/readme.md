@@ -9,7 +9,7 @@ This project aims to create a simple calculator using Python's `tkinter` for the
 
 ---
 
-## `frontend.py`
+# `frontend.py`
 
 This file creates the user interface of the calculator using `tkinter`. It includes a class called `CalculatorGUI` that defines the calculator's layout and functionality.
 
@@ -41,7 +41,7 @@ This file creates the user interface of the calculator using `tkinter`. It inclu
 
 ---
 
-## `python-calculator.py`
+# `python-calculator.py`
 
 This file contains the `PythonCalculator` class which is responsible for performing the actual calculations in the calculator. 
 
