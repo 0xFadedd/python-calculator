@@ -8,8 +8,11 @@
 - Use 
 
 ```bash
-.\my_env\Scripts\activate
+.\python-calculator\Scripts\activate
 ```
+
+(mac): source python-calculator/bin/activate
+
 
 
 
