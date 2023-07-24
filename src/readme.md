@@ -15,35 +15,29 @@ This file creates the user interface of the calculator using `tkinter`. It inclu
 
 ### Functions to be completed
 
+---
+
 #### `button_click(self, value)`
 
-This function is called when a button on the calculator is pressed. 
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| `value` (value of the button pressed) | No return value | This function is called when a button on the calculator is pressed. It updates the entry field in the GUI and the `value` attribute in the `PythonCalculator` object to reflect the user's input. |
 
-- **Inputs:** The function takes one input, `value`, which is the value of the button that was pressed.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** Currently, the function updates the entry field in the GUI and the `value` attribute in the `PythonCalculator` object to reflect the user's input. You should not need to modify this function.
+---
 
 #### `button_clear(self)`
 
-This function is called when the 'Clear' button on the calculator is pressed.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| No inputs | No return value | This function is called when the 'Clear' button on the calculator is pressed. You need to call the `clear` method from the `PythonCalculator` class here to reset the calculator's state. |
 
-- **Inputs:** This function does not take any inputs.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to call the `clear` method from the `PythonCalculator` class here to reset the calculator's state.
+---
 
 #### `button_equal(self)`
 
-This function is called when the '=' button on the calculator is pressed.
-
-- **Inputs:** This function does not take any inputs.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** Here, you need to call the `calculate` method from your `PythonCalculator` class to compute the result of the user's input. 
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| No inputs | No return value | This function is called when the '=' button on the calculator is pressed. Here, you need to call the `calculate` method from your `PythonCalculator` class to compute the result of the user's input. |
 
 ---
 
@@ -53,62 +47,52 @@ This file contains the `PythonCalculator` class which is responsible for perform
 
 ### Functions to be completed
 
+---
+
 #### `clear(self)`
 
-This function is called to clear the calculator's state.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| No inputs | No return value | This function is called to clear the calculator's state. You need to implement the clear functionality here. |
 
-- **Inputs:** This function does not take any inputs.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to implement the clear functionality here. 
+---
 
 #### `add(self, value)`
 
-This function is called to perform an addition operation.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| `value` (value to be added) | No return value | This function is called to perform an addition operation. You need to implement the addition functionality here. |
 
-- **Inputs:** The function takes one input, `value`, which is the value to be added.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to implement the addition functionality here.
+---
 
 #### `subtract(self, value)`
 
-This function is called to perform a subtraction operation.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| `value` (value to be subtracted) | No return value | This function is called to perform a subtraction operation. You need to implement the subtraction functionality here. |
 
-- **Inputs:** The function takes one input, `value`, which is the value to be subtracted.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to implement the subtraction functionality here.
+---
 
 #### `multiply(self, value)`
 
-This function is called to perform a multiplication operation.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| `value` (value to be multiplied) | No return value | This function is called to perform a multiplication operation. You need to implement the multiplication functionality here. |
 
-- **Inputs:** The function takes one input, `value`, which is the value to be multiplied.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to implement the multiplication functionality here.
+---
 
 #### `divide(self, value)`
 
-This function is called to perform a division operation.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| `value` (value to be divided) | No return value | This function is called to perform a division operation. You need to implement the division functionality here. |
 
-- **Inputs:** The function takes one input, `value`, which is the value to be divided.
-
-- **Outputs:** This function does not return a value.
-
-- **Functionality:** You need to implement the division functionality here.
+---
 
 #### `calculate(self)`
 
-This function is called to calculate the result of the user's input.
+| Inputs | Outputs | Functionality |
+| :----- | :------ | :------------ |
+| No inputs | Returns the result of the calculation | This function is called to calculate the result of the user's input. You need to implement the calculation logic here. This function should parse the `value` string, perform the appropriate operations (using the `add`, `subtract`, `multiply`, and `divide` methods), and return the result. You should handle both single and multiple operations, respecting the order of operations. |
 
-- **Inputs:** This function does not take any inputs.
-
-- **Outputs:** This function should return the result of the calculation.
-
-- **Functionality:** You need to implement the calculation logic here. This function should parse the `value` string, perform the appropriate operations (using the `add`, `subtract`, `multiply`, and `divide` methods), and return the result. You should handle both single and multiple operations, respecting the order of operations.
+---
