@@ -8,10 +8,10 @@
 - Use 
 
 ```bash
-.\python-calculator\Scripts\activate
+.\pythonVENV\Scripts\activate
 ```
 
-(mac): source python-calculator/bin/activate
+(mac): source pythonVENV/bin/activate
 
 
 
