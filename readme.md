@@ -23,7 +23,7 @@
 - Run tests by running 
 
 ```bash
-python3 tests.py
+python3 test.py
 ```
 
 - Run actual file by runnning
