@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 class PythonCalculator:
     def __init__(self):
         self.value = ''
