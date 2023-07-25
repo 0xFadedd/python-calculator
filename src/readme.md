@@ -43,7 +43,7 @@ This file creates the user interface of the calculator using `tkinter`. It inclu
 
 # `python_calculator.py`
 
-This file contains the PythonCalculator class which is responsible for performing the actual calculations in the calculator. The PythonCalculator class has two attributes, value and memory. The value attribute holds the current operation string that needs to be calculated, while memory is used to store the results of calculations. This class has several methods corresponding to different calculator functionalities such as clear, add, subtract, multiply, divide, and calculate.
+This file contains the PythonCalculator class which is responsible for performing the actual calculations in the calculator. The PythonCalculator class has two attributes, calculation and memory. The calculation attribute holds the current operation string that needs to be calculated, while memory is used to store the results of calculations. This class has several methods corresponding to different calculator functionalities such as clear, add, subtract, multiply, divide, and calculate.
 
 ### Functions to be completed
 

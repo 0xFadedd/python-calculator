@@ -2,7 +2,7 @@
 
 class PythonCalculator:
     def __init__(self):
-        self.value = ''
+        self.calculation = ''
         self.memory = 0
 
     def clear(self):

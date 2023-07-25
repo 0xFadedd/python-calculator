@@ -51,7 +51,7 @@ class CalculatorGUI:
         self.entry.delete(0, tk.END)
         self.entry.insert(tk.END, current + str(value))
         # Update the stored value in the calculator
-        self.calculator.value = self.entry.get()
+        # Use to get the current string being shown self.entry.get()
 
     def button_clear(self):
         # Implement click event for clear button
