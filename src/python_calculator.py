@@ -10,21 +10,29 @@ class PythonCalculator:
         self.calculation = ''
         
     def add(self, value):
-        # Implement add functionality
-        pass
-
+        self.memory = self.memory + value 
+                
     def subtract(self, value):
-        # Implement subtract functionality
-        pass
-
+        self.memory = self.memory - value 
+    
     def multiply(self, value):
-        # Implement multiply functionality
-        pass
-
+        self.memory = self.memory * value
+        
     def divide(self, value):
-        # Implement divide functionality
-        pass
+        if self.memory or value == 0:
+           self.memory = "Error"   
+           self.memory = self.memory / value    
 
     def calculate(self):
-        # Implement the calculation logic
-        pass
+        if self.calculation == "divide":
+           self.memory = 
+        if self.calculation == "multpily"
+           self.memory = 
+        if self.calculation == "add"
+           self.memory == 
+        if self.calculation == "substract"
+           self.memory = 
+           self.memory = self.calculation 
+
+
+        
