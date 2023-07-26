@@ -8,10 +8,10 @@ class TestPythonCalculator(unittest.TestCase):
 
     def test_clear(self):
         self.calculator.memory = 1
-        self.calculator.value = 1
+        self.calculator.calculation = 1
 
         self.calculator.clear()
-        self.assertEqual(self.calculator.value, '')
+        self.assertEqual(self.calculator.calculation, '')
         self.assertEqual(self.calculator.memory, 0)
 
     def test_add(self):
@@ -54,16 +54,16 @@ class TestPythonCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.memory, -5)
 
     def test_calculate(self):
-        self.calculator.value = '2+2'
+        self.calculator.calculation = '2+2'
         self.assertEqual(self.calculator.calculate(), 4)
 
-        self.calculator.value = '2+2+4'
+        self.calculator.calculation = '2+2+4'
         self.assertEqual(self.calculator.calculate(), 8)
 
-        self.calculator.value = '2+2*2'
+        self.calculator.calculation = '2+2*2'
         self.assertEqual(self.calculator.calculate(), 6)
 
-        self.calculator.value = '2+2-3*4/2'
+        self.calculator.calculation = '2+2-3*4/2'
         self.assertEqual(self.calculator.calculate(), -2)
 
 if __name__ == '__main__':
