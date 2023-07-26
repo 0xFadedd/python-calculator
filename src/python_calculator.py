@@ -6,9 +6,9 @@ class PythonCalculator:
         self.memory = 0
 
     def clear(self):
-        # Implement clear functionality
-        pass
-
+        self.memory = 0
+        self.calculation = ''
+        
     def add(self, value):
         # Implement add functionality
         pass
